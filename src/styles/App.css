@@ -23,17 +23,11 @@ body {
   border-radius: 6px;
   border: none;
   padding: 4px 8px;
+  background-color: aliceblue;
 }
 
 .navBar__content > input:focus-visible {
   outline: none;
-}
-
-#loading {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 24px;
 }
 
 .characterList {
@@ -52,4 +46,10 @@ body {
   padding: 16px 12px;
   margin: 12px 0;
   cursor: pointer;
+}
+
+.peopleCard {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 16px;
 }
