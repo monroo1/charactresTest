@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="navBar">
-      <div className="navBar__content">
+      <div className="navBar__content wrapper">
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}

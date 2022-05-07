@@ -1,21 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import Characters from "../components/Characters";
-import { SearchContext } from "../context/search";
+import HistoryNav from "../components/HistoryNav";
 
-function CharactersPage() {
-  const [search, setSearch] = useState("");
+const CharactersPage = () => {
   return (
-    <SearchContext.Provider
-      value={{
-        search,
-        setSearch,
-      }}
-    >
+    <>
       <Navbar />
-      <Characters />
-    </SearchContext.Provider>
+      <div className="peopleMain wrapper">
+        <Characters />
+        <HistoryNav />
+      </div>
+    </>
   );
-}
+};
 
 export default CharactersPage;
