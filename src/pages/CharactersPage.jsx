@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Characters from "../components/Characters";
+import Navbar from "../components/Navbar";
 import HistoryNav from "../components/HistoryNav";
 
 const CharactersPage = () => {
